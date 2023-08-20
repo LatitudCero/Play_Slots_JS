@@ -163,3 +163,5 @@ const playAgain = prompt("Do you want to play again (y/n)?");
 
 game();
 
+//prompt game in terminal with node project.js//
+
