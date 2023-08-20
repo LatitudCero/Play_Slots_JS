@@ -67,9 +67,18 @@ const getBet = (balance, lines) => {
 const spin = () => {
     const symbols = [];
     for (const [symbol, count] of Object.entries(SYMBOLS_COUNT)) {
-       console.log(symbol, count);
+       for (let i = 0; i < count; i++) {
+        symbols.push(symbol);
+       }
     }
-    console.log(symbols);
+
+    const reels = [[], [], []];
+    for (let i = 0; i < COLS; i++) {
+        
+        for (let j = 0; j < ROWS; j++) {
+
+        }
+    }
 };
 spin();
 let balance = deposit();
